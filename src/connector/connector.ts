@@ -54,7 +54,7 @@ export abstract class Connector {
             this.options.userAuthentication.headers['Authorization'] = 'Bearer ' + token;
         }
 
-        return options;
+        return this.options;
     }
 
     /**
